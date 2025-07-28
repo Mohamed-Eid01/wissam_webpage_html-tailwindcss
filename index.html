@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>الوسام</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Cairo Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <style>
+      body {
+        font-family: "Cairo", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+<!-- Navbar -->
+<div
+  class="w-full px-[60px] py-4 bg-white inline-flex justify-between items-center"
+>
+  <!-- الشعار داخل رابط -->
+  <a href="/" class="flex items-center gap-2.5">
+    <img
+      class="w-12 h-12"
+      src="./images/ChatGPT Image May 24, 2025, 09_19_28 AM 2.png"
+      alt="شعار"
+    />
+    <img
+      class="w-28 h-10"
+      src="./images/ChatGPT Image May 24, 2025, 09_19_28 AM 3@2x.png"
+      alt="نص الشعار"
+    />
+  </a>
+
+  <!-- الروابط -->
+  <div
+    class="flex items-center gap-9 text-[#424352] font-bold text-lg tracking-wide"
+  >
+    <a href="#" class="hover:text-[#E22026] transition">من نحن</a>
+    <a href="#" class="hover:text-[#E22026] transition">تعرّف على فريق الوسام</a>
+    <a href="#" class="hover:text-[#E22026] transition">خدماتنا</a>
+    <a href="#" class="hover:text-[#E22026] transition">لماذا الوسام؟</a>
+    <a href="#" class="hover:text-[#E22026] transition">الفعاليات</a>
+    <a href="#" class="hover:text-[#E22026] transition">قصص النجاح</a>
+    <div
+      class="px-5 py-2 bg-red-600 rounded-[5px] flex items-center hover:bg-[#f03b3b] transition-colors duration-300"
+    >
+      <button class="text-white text-lg">اتصل بنا</button>
+    </div>
+  </div>
+</div>
+
+    <!-- Hero Section -->
+    <div
+      class="relative bg-[url('/images/heroimg1.png')] bg-cover bg-center h-[764px] w-full"
+    >
+      <div
+        class="absolute inset-0 flex items-center justify-center mt-[90px] p-4"
+      >
+        <div class="absolute top-5 text-white space-y-2 text-center w-full">
+          <h1 class="text-6xl font-bold leading-[65px]">فعاليات مكتب الوسام</h1>
+          <p class="text-[30px] font-semibold p-4">
+            تابع أبرز ورش العمل والأنشطة التعليمية القادمة وكن جزءًا من مجتمع
+            تربوي فعّال
+          </p>
+        </div>
+      </div>
+
+      <!-- Swiper Slider -->
+      <div
+        class="absolute bg-white top-[40%] right-1/2 translate-x-1/2 w-full max-w-[1122px]"
+      >
+        <div class="relative">
+          <!-- أسهم التنقل يمين ويسار -->
+          <div
+            id="swiperPrev"
+            class="absolute left-[-40px] top-1/2 -translate-y-1/2 z-10 cursor-pointer"
+          >
+            <img
+              src="./images/leftarrow.png"
+              class="w-[70px] h-[70px]"
+              alt="السابق"
+            />
+          </div>
+          <div
+            id="swiperNext"
+            class="absolute right-[-40px] top-1/2 -translate-y-1/2 z-10 cursor-pointer"
+          >
+            <img
+              src="./images/rightarrow.png"
+              class="w-[70px] h-[70px]"
+              alt="التالي"
+            />
+          </div>
+
+          <!-- Swiper نفسه -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <!-- Slide 1 -->
+              <div class="swiper-slide">
+                <div
+                  dir="rtl"
+                  class="relative bg-white rounded-lg shadow p-4 flex flex-row-reverse gap-10 text-right font-['Cairo']"
+                >
+                  <div class="w-1/3 flex-shrink-0">
+                    <img
+                      src="./images/Subtract (2).png"
+                      alt="فعالية رواد الصف الأول"
+                      class="w-full h-full object-cover rounded-lg"
+                    />
+                  </div>
+                  <div class="w-2/3 flex flex-col justify-between pt-3 pr-8">
+                    <div>
+                      <p class="text-slate-600 text-2xl font-semibold">
+                        فعالية
+                      </p>
+                      <h2
+                        class="text-black text-[46px] font-bold leading-tight"
+                      >
+                        رواد الصف الأول
+                      </h2>
+                    </div>
+                    <p class="text-slate-600 text-xl leading-relaxed">
+                      برنامج تأسيسي يركز على مهارات الاستعداد المدرسي للأطفال
+                      الجدد في الصف الأول من خلال أنشطة تعليمية ممتعة.
+                    </p>
+                    <div class="flex flex-row gap-2 text-base text-slate-600">
+                      <div class="flex items-center gap-2">
+                        <span class="text-black flex font-bold">
+                          <img
+                            class="w-[20px] h-[20px]"
+                            src="./images/Frame.png"
+                          />المكان:
+                        </span>
+                        <span>المدينة المنورة</span>
+                      </div>
+                      <div class="flex items-center gap-2">
+                        <span class="text-black font-bold flex">
+                          <img
+                            class="w-[20px] h-[20px]"
+                            src="./images/Frame (1).png"
+                          />الوقت:
+                        </span>
+                        <span>من 5:30 إلى 7:00 مساءً</span>
+                      </div>
+                      <div class="flex items-center gap-2">
+                        <span class="text-black font-bold flex">
+                          <img
+                            class="w-[20px] h-[20px]"
+                            src="./images/Frame (2).png"
+                          />التاريخ:
+                        </span>
+                        <span>13 يوليو – 12 أغسطس</span>
+                      </div>
+                    </div>
+                    <div class="flex gap-4 justify-start mt-4">
+                      <button
+                        class="border border-red-600 text-red-600 px-5 py-2 rounded-lg hover:bg-red-50 transition"
+                      >
+                        عرض التفاصيل
+                      </button>
+                      <button
+                        class="bg-red-600 text-white px-5 py-2 rounded-lg hover:bg-red-700 transition"
+                      >
+                        احجز الآن
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+<!-- Slide 2 -->
+    <div class="swiper-slide">
+      <div dir="rtl" class="relative bg-white rounded-lg shadow p-4 flex flex-row-reverse gap-10 text-right font-['Cairo']">
+        <div class="w-1/3 flex-shrink-0">
+          <img src="./images/Subtract (1).png" alt="فعالية بناء القادة" class="w-full h-full object-cover rounded-lg" />
+        </div>
+        <div class="w-2/3 flex flex-col justify-between pt-3 pr-8">
+          <div>
+            <p class="text-slate-600 text-2xl font-semibold">فعالية</p>
+            <h2 class="text-black text-[46px] font-bold leading-tight">بناء القادة</h2>
+          </div>
+          <p class="text-slate-600 text-xl leading-relaxed">تجربة تعليمية تهدف إلى تنمية مهارات القيادة والتعاون لدى الأطفال من خلال مشاريع جماعية.</p>
+          <div class="flex flex-row gap-2 text-base text-slate-600">
+            <div class="flex items-center gap-2">
+              <span class="text-black flex font-bold"><img class="w-[20px] h-[20px]" src="./images/Frame.png" />المكان:</span>
+              <span>الرياض</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="text-black font-bold flex"><img class="w-[20px] h-[20px]" src="./images/Frame (1).png" />الوقت:</span>
+              <span>من 4:00 إلى 6:00 مساءً</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="text-black font-bold flex"><img class="w-[20px] h-[20px]" src="./images/Frame (2).png" />التاريخ:</span>
+              <span>1 – 10 أغسطس</span>
+            </div>
+          </div>
+          <div class="flex gap-4 justify-start mt-4">
+            <button class="border border-red-600 text-red-600 px-5 py-2 rounded-lg hover:bg-red-50 transition">عرض التفاصيل</button>
+            <button class="bg-red-600 text-white px-5 py-2 rounded-lg hover:bg-red-700 transition">احجز الآن</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="swiper-slide">
+      <div dir="rtl" class="relative bg-white rounded-lg shadow p-4 flex flex-row-reverse gap-10 text-right font-['Cairo']">
+        <div class="w-1/3 flex-shrink-0">
+          <img src="./images/Subtract (2).png" alt="فعالية الإبداع والخيال" class="w-full h-full object-cover rounded-lg" />
+        </div>
+        <div class="w-2/3 flex flex-col justify-between pt-3 pr-8">
+          <div>
+            <p class="text-slate-600 text-2xl font-semibold">فعالية</p>
+            <h2 class="text-black text-[46px] font-bold leading-tight">الإبداع والخيال</h2>
+          </div>
+          <p class="text-slate-600 text-xl leading-relaxed">أنشطة ترفيهية وتعليمية تدمج بين الفن والخيال وتسمح للأطفال بالتعبير عن أفكارهم بحرية.</p>
+          <div class="flex flex-row gap-2 text-base text-slate-600">
+            <div class="flex items-center gap-2">
+              <span class="text-black flex font-bold"><img class="w-[20px] h-[20px]" src="./images/Frame.png" />المكان:</span>
+              <span>جدة</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="text-black font-bold flex"><img class="w-[20px] h-[20px]" src="./images/Frame (1).png" />الوقت:</span>
+              <span>من 6:00 إلى 8:00 مساءً</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="text-black font-bold flex"><img class="w-[20px] h-[20px]" src="./images/Frame (2).png" />التاريخ:</span>
+              <span>20 – 30 أغسطس</span>
+            </div>
+          </div>
+          <div class="flex gap-4 justify-start mt-4">
+            <button class="border border-red-600 text-red-600 px-5 py-2 rounded-lg hover:bg-red-50 transition">عرض التفاصيل</button>
+            <button class="bg-red-600 text-white px-5 py-2 rounded-lg hover:bg-red-700 transition">احجز الآن</button>
+          </div>
+        </div>
+      </div>
+    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- قسم الفعاليات القادمة -->
+    <div class="pt-20 pl-10 pr-10 pb-20 bg-[#fff]">
+      <!-- العنوان والوصف -->
+      <div class="text-center mb-16 font-['cairo']">
+        <h1
+          class="text-zinc-800 text-5xl font-bold capitalize leading-[57.6px]"
+        >
+          الفعاليات القادمة
+        </h1>
+        <div class="w-44 h-0.5 bg-[#E22026] mx-auto mt-2 mb-4"></div>
+        <p
+          class="text-slate-600 text-lg font-normal text-[#425466] capitalize max-w-3xl mx-auto"
+        >
+          ورش وبرامج تعليمية تفاعلية مصممة لتعزيز مهارات الأطفال والمعلمين،
+          تنطلق قريبًا في مركز الوسام
+        </p>
+      </div>
+
+      <!-- كروت الفعالية -->
+      <div class="flex flex-col gap-1 items-center">
+        <!-- كارت فعالية -->
+        <div
+          dir="rtl"
+          class="w-full max-w-7xl bg-[#fff] p-6 flex flex-row-reverse gap-2 text-right font-['Cairo'] border-b-[2px] border-[#BBB9BB]"
+        >
+          <div class="w-1/3 flex-shrink-0">
+            <img
+              src="./images/card1.png"
+              alt="فعالية رواد الصف الأول"
+              class="w-full h-full object-cover rounded-lg"
+            />
+          </div>
+          <div class="w-2/3 flex flex-col justify-between pt-3 pr-4">
+            <div>
+              <p class="text-slate-600 text-2xl font-semibold">فعالية</p>
+              <h2 class="text-black text-[38px] font-bold leading-tight">
+                رواد الصف الأول
+              </h2>
+            </div>
+            <p
+              class="text-slate-600 text-xl text-[#425466] leading-relaxed mt-2"
+            >
+              برنامج تأسيسي يركز على مهارات الاستعداد المدرسي للأطفال الجدد في
+              الصف الأول من خلال أنشطة تعليمية ممتعة.
+            </p>
+            <div class="flex gap-4 justify-start mt-4">
+              <button
+                class="bg-red-600 text-white px-5 py-2 rounded-lg hover:bg-red-700 transition"
+              >
+                احجز الآن
+              </button>
+              <button
+                class="border border-red-600 text-red-600 px-5 py-2 rounded-lg hover:bg-red-50 transition"
+              >
+                عرض التفاصيل
+              </button>
+            </div>
+          </div>
+          <div
+            class="w-35 rounded-lg inline-flex flex-col justify-start items-start font-['Cairo']"
+          >
+            <div
+              class="self-stretch h-30 px-6 py-2.5 bg-zinc-400/30 rounded-tl-lg rounded-tr-lg flex flex-col justify-start items-center"
+            >
+              <div
+                class="text-center text-black text-xl font-normal leading-normal"
+              >
+                يوليو
+              </div>
+              <div class="text-center text-black text-4xl font-bold leading-10">
+                27
+              </div>
+              <div
+                class="text-center text-black text-xl font-normal leading-normal"
+              >
+                2025
+              </div>
+            </div>
+            <div
+              class="self-stretch h-14 px-6 py-2.5 bg-red-600 rounded-bl-lg rounded-br-lg flex flex-row justify-center items-center gap-[2px]"
+            >
+              <span class="text-white text-xl font-normal leading-normal"
+                >5:30</span
+              >
+              <span class="text-white text-xl font-normal leading-normal"
+                >مساء</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- كارت فعالية -->
+        <div
+          dir="rtl"
+          class="w-full max-w-7xl bg-[#fff] p-6 flex flex-row-reverse gap-2 text-right font-['Cairo'] border-b-[2px] border-[#BBB9BB]"
+        >
+          <div class="w-1/3 flex-shrink-0">
+            <img
+              src="./images/card2.png"
+              alt="فعالية لقاء تنمية مهارات المعلمين"
+              class="w-full h-full object-cover rounded-lg"
+            />
+          </div>
+          <div class="w-2/3 flex flex-col justify-between pt-3 pr-4">
+            <div>
+              <p class="text-slate-600 text-2xl font-semibold">فعالية</p>
+              <h2 class="text-black text-[38px] font-bold leading-tight">
+                لقاء تنمية مهارات المعلمين
+              </h2>
+            </div>
+            <p
+              class="text-slate-600 text-xl text-[#425466] leading-relaxed mt-2"
+            >
+              جلسة تطوير مهني تسلط الضوء على أحدث الاستراتيجيات التعليمية
+              والتقنيات التربوية.
+            </p>
+            <div class="flex gap-4 justify-start mt-4">
+              <button
+                class="bg-red-600 text-white px-5 py-2 rounded-lg hover:bg-red-700 transition"
+              >
+                احجز الآن
+              </button>
+              <button
+                class="border border-red-600 text-red-600 px-5 py-2 rounded-lg hover:bg-red-50 transition"
+              >
+                عرض التفاصيل
+              </button>
+            </div>
+          </div>
+          <div
+            class="w-35 rounded-lg inline-flex flex-col justify-start items-start font-['Cairo']"
+          >
+            <div
+              class="self-stretch h-30 px-6 py-2.5 bg-zinc-400/30 rounded-tl-lg rounded-tr-lg flex flex-col justify-start items-center"
+            >
+              <div
+                class="text-center text-black text-xl font-normal leading-normal"
+              >
+                يوليو
+              </div>
+              <div class="text-center text-black text-4xl font-bold leading-10">
+                29
+              </div>
+              <div
+                class="text-center text-black text-xl font-normal leading-normal"
+              >
+                2025
+              </div>
+            </div>
+            <div
+              class="self-stretch h-14 px-6 py-2.5 bg-red-600 rounded-bl-lg rounded-br-lg flex flex-row justify-center items-center gap-[2px]"
+            >
+              <span class="text-white text-xl font-normal leading-normal"
+                >5:30</span
+              >
+              <span class="text-white text-xl font-normal leading-normal"
+                >مساء</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- كارت فعالية -->
+        <div
+          dir="rtl"
+          class="w-full max-w-7xl bg-[#fff] p-6 flex flex-row-reverse gap-2 text-right font-['Cairo'] border-b-[2px] border-[#BBB9BB]"
+        >
+          <div class="w-1/3 flex-shrink-0">
+            <img
+              src="./images/card3.png"
+              alt="فعالية أصدقاء الحروف"
+              class="w-full h-full object-cover rounded-lg"
+            />
+          </div>
+          <div class="w-2/3 flex flex-col justify-between pt-3 pr-4">
+            <div>
+              <p class="text-slate-600 text-2xl font-semibold">فعالية</p>
+              <h2 class="text-black text-[38px] font-bold leading-tight">
+                أصدقاء الحروف
+              </h2>
+            </div>
+            <p
+              class="text-slate-600 text-xl text-[#425466] leading-relaxed mt-2"
+            >
+              فعالية لغوية مرحة لتعليم الأطفال الحروف الهجائية عن طريق اللعب
+              والغناء والرسم، تهدف لتقوية مهارات النطق والكتابة.
+            </p>
+            <div class="flex gap-4 justify-start mt-4">
+              <button
+                class="bg-red-600 text-white px-5 py-2 rounded-lg hover:bg-red-700 transition"
+              >
+                احجز الآن
+              </button>
+              <button
+                class="border border-red-600 text-red-600 px-5 py-2 rounded-lg hover:bg-red-50 transition"
+              >
+                عرض التفاصيل
+              </button>
+            </div>
+          </div>
+          <div
+            class="w-35 rounded-lg inline-flex flex-col justify-start items-start font-['Cairo']"
+          >
+            <div
+              class="self-stretch h-30 px-6 py-2.5 bg-zinc-400/30 rounded-tl-lg rounded-tr-lg flex flex-col justify-start items-center"
+            >
+              <div
+                class="text-center text-black text-xl font-normal leading-normal"
+              >
+                اغسطس
+              </div>
+              <div class="text-center text-black text-4xl font-bold leading-10">
+                23
+              </div>
+              <div
+                class="text-center text-black text-xl font-normal leading-normal"
+              >
+                2025
+              </div>
+            </div>
+            <div
+              class="self-stretch h-14 px-6 py-2.5 bg-red-600 rounded-bl-lg rounded-br-lg flex flex-row justify-center items-center gap-[2px]"
+            >
+              <span class="text-white text-xl font-normal leading-normal"
+                >5:30</span
+              >
+              <span class="text-white text-xl font-normal leading-normal"
+                >مساء</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- زر عرض المزيد -->
+      <div class="m-8 flex justify-center text-[20px] font-['Cairo']">
+        <button
+          class="font-bold w-[141px] h-[52px] rounded-[8px] border border-[1.64px] border-black text-black"
+        >
+          عرض المزيد
+        </button>
+      </div>
+    </div>
+
+    <!-- جزء ابرز الفعاليات السابقة -->
+    <div class="pt-20 px-10 bg-[#F8FBFB]">
+      <!-- العنوان والوصف -->
+      <div class="text-center mb-16 font-['Cairo']">
+        <h1 class="text-zinc-800 text-5xl font-bold leading-[57.6px]">
+          أبرز الفعاليات السابقة
+        </h1>
+        <div class="w-44 h-0.5 bg-[#E22026] mx-auto mt-2 mb-4"></div>
+        <p class="text-slate-600 text-lg text-[#425466] max-w-3xl mx-auto">
+          اطّلع على أرشيف فعالياتنا السابقة وصور المشاركين
+        </p>
+      </div>
+
+      <!-- بطاقات الفعاليات -->
+      <div
+        dir="rtl"
+        class="flex flex-wrap justify-center gap-12 font-['Cairo'] p-8 bg-gray-50"
+      >
+        <!-- بطاقة فعالية (يتم تكرارها عند الحاجة) -->
+        <div
+          class="p-6 bg-white rounded-xl shadow-md outline outline-1 outline-neutral-200 flex flex-col items-end gap-5 w-96 hover:shadow-xl transition-shadow duration-300"
+        >
+          <div class="flex flex-col gap-3 w-full">
+            <img
+              class="w-full h-44 object-cover rounded-xl"
+              src="./images/Picture1.png"
+              alt="event image"
+            />
+            <div class="flex flex-col items-end w-full gap-2">
+              <div class="text-black text-2xl font-bold pt-2 pb-2">
+                يوم التهيئة المدرسية
+              </div>
+              <div class="text-stone-500 text-base leading-tight pb-4">
+                فعالية مميزة ساعدت الطلاب على التكيف مع بيئتهم التعليمية من خلال
+                أنشطة تفاعلية وإرشادات تربوية.
+              </div>
+            </div>
+            <div class="flex justify-end items-center gap-4 flex-wrap text-xs">
+              <div class="flex items-center gap-1">
+                <img class="w-4 h-4" src="./images/Frame (2).png" />
+                <span class="text-black font-bold">التاريخ:</span>
+                <span>13 يوليو – 12 أغسطس</span>
+              </div>
+              <div class="flex items-center gap-1">
+                <img class="w-4 h-4" src="./images/Frame.png" />
+                <span class="text-black font-bold">المكان:</span>
+                <span>المدينة المنورة</span>
+              </div>
+            </div>
+          </div>
+          <button
+            class="px-4 py-2 bg-red-600 rounded-lg text-white text-lg ml-auto"
+          >
+            عرض التفاصيل
+          </button>
+        </div>
+
+        <!-- كارت 2 -->
+        <div
+          class="p-6 bg-white rounded-xl shadow-md outline outline-1 outline-neutral-200 flex flex-col items-end gap-5 w-96 hover:shadow-xl transition-shadow duration-300"
+        >
+          <div class="flex flex-col gap-3 w-full">
+            <img
+              class="w-full h-44 object-cover rounded-xl"
+              src="./images/Picture2.png"
+              alt="event image"
+            />
+            <div class="flex flex-col items-end w-full gap-2">
+              <div class="text-black text-2xl font-bold pt-2 pb-2">
+                ورشة البرمجة الإبداعية
+              </div>
+              <div class="text-stone-500 text-base leading-tight pb-4">
+                تعلم فيها الأطفال أساسيات البرمجة بطريقة ممتعة باستخدام
+                الروبوتات وألعاب البرمجة التفاعلية.
+              </div>
+            </div>
+            <div class="flex justify-end items-center gap-4 flex-wrap text-xs">
+              <div class="flex items-center gap-1">
+                <img class="w-4 h-4" src="./images/Frame (2).png" />
+                <span class="text-black font-bold">التاريخ:</span>
+                <span>13 يوليو – 12 أغسطس</span>
+              </div>
+              <div class="flex items-center gap-1">
+                <img class="w-4 h-4" src="./images/Frame.png" />
+                <span class="text-black font-bold">المكان:</span>
+                <span>المدينة المنورة</span>
+              </div>
+            </div>
+          </div>
+          <button
+            class="px-4 py-2 bg-red-600 rounded-lg text-white text-lg ml-auto"
+          >
+            عرض التفاصيل
+          </button>
+        </div>
+
+        <!-- كارت 3 -->
+        <div
+          class="p-6 bg-white rounded-xl shadow-md outline outline-1 outline-neutral-200 flex flex-col items-end gap-5 w-96 hover:shadow-xl transition-shadow duration-300"
+        >
+          <div class="flex flex-col gap-3 w-full">
+            <img
+              class="w-full h-44 object-cover rounded-xl"
+              src="./images/Picture3.png"
+              alt="event image"
+            />
+            <div class="flex flex-col items-end w-full gap-2">
+              <div class="text-black text-2xl font-bold pt-2 pb-2">
+                احتفالية يوم الكتاب
+              </div>
+              <div class="text-stone-500 text-base leading-tight pb-4">
+                تضمنت قراءات قصصية، مسابقات ثقافية، وركنًا خاصًا لتبادل الكتب
+                بين الطلاب.
+              </div>
+            </div>
+            <div class="flex justify-end items-center gap-4 flex-wrap text-xs">
+              <div class="flex items-center gap-1">
+                <img class="w-4 h-4" src="./images/Frame (2).png" />
+                <span class="text-black font-bold">التاريخ:</span>
+                <span>13 يوليو – 12 أغسطس</span>
+              </div>
+              <div class="flex items-center gap-1">
+                <img class="w-4 h-4" src="./images/Frame.png" />
+                <span class="text-black font-bold">المكان:</span>
+                <span>المدينة المنورة</span>
+              </div>
+            </div>
+          </div>
+          <button
+            class="px-4 py-2 bg-red-600 rounded-lg text-white text-lg ml-auto"
+          >
+            عرض التفاصيل
+          </button>
+        </div>
+
+        <!-- زر عرض المزيد -->
+        <div class="m-8 flex justify-center w-full text-[20px] font-['Cairo']">
+          <button
+            class="font-bold w-[141px] h-[52px] rounded-[8px] border border-black text-black"
+          >
+            عرض المزيد
+          </button>
+        </div>
+      </div>
+
+
+    </div>
+<!-- معرض الصور -->
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 pt-16 w-full">
+  <!-- تكرار صور -->
+  <div class="w-full h-[360px]">
+    <img src="./images/grid4.png" alt="صورة 1" class="w-full h-full object-cover" />
+  </div>
+  <div class="w-full h-[360px]">
+    <img src="./images/grid3.png" alt="صورة 2" class="w-full h-full object-cover" />
+  </div>
+  <div class="w-full h-[360px]">
+    <img src="./images/grid2.png" alt="صورة 3" class="w-full h-full object-cover" />
+  </div>
+  <div class="w-full h-[360px]">
+    <img src="./images/grid1.png" alt="صورة 4" class="w-full h-full object-cover" />
+  </div>
+  <div class="w-full h-[360px]">
+    <img src="./images/grid8.png" alt="صورة 5" class="w-full h-full object-cover" />
+  </div>
+
+  <!-- صورة عليها محتوى إضافي -->
+  <div class="relative w-full h-[360px] overflow-hidden">
+    <img src="./images/grid7.png" alt="img 7" class="w-full h-full object-cover" />
+    <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-40 text-white flex flex-col justify-between items-center p-2">
+      <div class="flex flex-col items-center justify-center flex-1">
+        <h3 class="text-[64px] font-bold leading-[1.1]">2025</h3>
+        <p class="text-[32px]">معرض فعاليتنا</p>
+      </div>
+      <div class="w-36 h-12 mb-4 p-4 rounded-lg outline outline-white inline-flex justify-center items-center">
+        <button class="w-24 text-center text-white text-lg">عرض الكل</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="w-full h-[360px]">
+    <img src="./images/grid6.png" alt="صورة 6" class="w-full h-full object-cover" />
+  </div>
+  <div class="w-full h-[360px]">
+    <img src="./images/grid5.png" alt="صورة 8" class="w-full h-full object-cover" />
+  </div>
+</div>
+
+    <!-- كارت البريد الالكتروني -->
+    <div
+      class="w-[1404.97px] h-[609.60px] relative font-['Cairo'] mr-auto mb-20"
+    >
+      <img class="absolute right-0 top-40" src="./images/Group 77.png" />
+      <div
+        class="w-[1242.83px] h-96 left-[1383.73px] top-[551.79px] absolute overflow-hidden origin-top-left rotate-180 opacity-20 bg-zinc-400 rounded-tl-3xl rounded-br-[137.03px] rounded-bl-3xl rounded-tr-3xl"
+      >
+        <img
+          class="w-[500px] h-[500px] right-[-80px] bottom-[-80px] absolute scale-x-[-1] scale-y-[-1] mix-blend-lighten"
+          src="./images/ChatGPTlogogmail1.png"
+        />
+      </div>
+      <!-- النص -->
+      <div
+        class="left-[278.94px] top-[220.16px] absolute inline-flex flex-col justify-start items-center gap-14 overflow-hidden"
+      >
+        <div class="relative flex flex-col justify-center items-center gap-3">
+          <div
+            class="justify-start text-zinc-800 text-[38px] font-bold capitalize leading-[57.60px]"
+          >
+            كن أول من يعرف فعالياتنا الجديدة
+          </div>
+          <div
+            class="text-center justify-start text-black-600 text-lg font-normal capitalize"
+          >
+            اشترك في النشرة البريدية لمكتب الوسام لتصلك أخبار ورش العمل والأنشطة
+            فور إعلانها.
+          </div>
+          <div
+            class="w-44 h-0 left-[200px] top-[65px] absolute outline outline-[2px] outline-offset-[-1.25px] outline-red-600"
+          ></div>
+        </div>
+        <!-- جزء الحقل و الزرار -->
+        <div class="w-[998px] inline-flex justify-start items-center gap-6">
+          <div
+            class="w-[800px] p-5 bg-white rounded-lg outline outline-[1.44px] outline-neutral-200 flex items-center justify-end"
+          >
+            <input
+              type="text"
+              placeholder="أدخل بريدك الالكترونى"
+              class="w-full text-start text-zinc-400 text-2xl font-normal font-['Cairo'] bg-transparent outline-none placeholder-zinc-400"
+            />
+          </div>
+          <button
+            class="w-44 p-5 bg-red-600 rounded-[19.98px] flex justify-center items-center gap-3.5"
+          >
+            <span class="text-white text-2xl font-semibold font-['Cairo']">
+              اشترك الأن
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- الفوتر -->
+    <footer
+      class="flex flex-col items-center gap-2.5 px-[60px] py-5 w-full bg-[url('./images/Footer2.png')] bg-cover bg-center font-['Cairo'] font-bold relative"
+    >
+      <!-- الأعمدة الأربعة -->
+      <div class="flex justify-between w-full gap-[120px] pb-[100px]">
+        <!-- 4. وصف الوسام وروابط التواصل -->
+        <div class="flex flex-col gap-3 max-w-[300px]">
+          <h3 class="text-white flex items-center gap-2 leading-9">
+            <img src="./images/ChatGPTlogo1.png" alt="icon" />
+            <img src="./images/ChatGPTwissam 2.png" alt="icon" />
+          </h3>
+          <p class="text-white text-base font-medium leading-7">
+            بيت خبرة تربوي يقدم برامج تدريبية واستشارات تعليمية نوعية، تواكب
+            احتياجات الميدان التربوي، وتدعم التطوير المهني، وتسهم في رفع كفاءة
+            المؤسسات التعليمية والأفراد.
+          </p>
+          <div class="flex gap-4 mt-4">
+            <a href="https://www.facebook.com" target="_blank"
+              ><img src="./images/facebooklogo.png" alt="Facebook"
+            /></a>
+            <a href="https://www.yoytube.com" target="_blank"
+              ><img src="./images/youtubelogo.png" alt="YouTube"
+            /></a>
+            <a href="https://www.instagram.com" target="_blank"
+              ><img src="./images/instalogo.png" alt="Instagram"
+            /></a>
+            <a href="https://www.twitter.com" target="_blank"
+              ><img src="./images/twitterlogo.png" alt="Twitter"
+            /></a>
+          </div>
+        </div>
+
+        <!-- 3. استكشف -->
+        <div class="flex flex-col gap-3">
+          <h3 class="text-white leading-9">استكشف</h3>
+          <a
+            href="#"
+            class="text-white text-base font-normal flex items-center gap-2"
+          >
+            من نحن <img src="./images/Frame (3).png" alt="icon" />
+          </a>
+          <a
+            href="#"
+            class="text-white text-base font-medium flex items-center gap-2"
+          >
+            خدماتنا <img src="./images/Frame (3).png" alt="icon" />
+          </a>
+          <a
+            href="#"
+            class="text-white text-base font-medium flex items-center gap-2"
+          >
+            لماذا الوسام <img src="./images/Frame (3).png" alt="icon" />
+          </a>
+          <a
+            href="#"
+            class="text-white text-base font-medium flex items-center gap-2"
+          >
+            الفعاليات <img src="./images/Frame (3).png" alt="icon" />
+          </a>
+          <a
+            href="#"
+            class="text-white text-base font-medium flex items-center gap-2"
+          >
+            قصص النجاح <img src="./images/Frame (3).png" alt="icon" />
+          </a>
+          <a
+            href="#"
+            class="text-white text-base font-medium flex items-center gap-2"
+          >
+            اتصل بنا <img src="./images/Frame (3).png" alt="icon" />
+          </a>
+        </div>
+        <!-- 2. روابط مهمة -->
+        <div class="flex flex-col gap-3">
+          <h3 class="text-white text-2xl font-semibold leading-9">
+            روابط مهمة
+          </h3>
+          <a
+            href="#"
+            class="text-white text-base font-normal flex items-center gap-2"
+          >
+            سياسة الخصوصية <img src="./images/Frame (3).png" alt="icon" />
+          </a>
+          <a
+            href="#"
+            class="text-white text-base font-medium flex items-center gap-2"
+          >
+            شروط الاستخدام <img src="./images/Frame (3).png" alt="icon" />
+          </a>
+          <a
+            href="#"
+            class="text-white text-base font-medium flex items-center gap-2"
+          >
+            سياسة الاسترجاع <img src="./images/Frame (3).png" alt="icon" />
+          </a>
+        </div>
+
+        <!-- 1. معلومات التواصل -->
+        <div class="flex flex-col gap-3">
+          <h3 class="text-white text-2xl font-semibold leading-9">
+            معلومات التواصل
+          </h3>
+          <p class="text-white text-base font-medium flex items-center gap-2">
+            <img src="./images/Vectorمعلومات التواصل 1.png" alt="icon" />
+            المدينة المنورة، المملكة العربية السعودية
+          </p>
+          <p class="text-white text-base font-medium flex items-center gap-2">
+            <img src="./images/Groupمعلومات التواصل2.png" alt="icon" />
+            +966 50 531 8967
+          </p>
+          <p class="text-white text-base font-medium flex items-center gap-2">
+            <img src="./images/Groupمعلومات3.png" alt="icon" />
+            alwisam1440@gmail.com
+          </p>
+        </div>
+      </div>
+
+      <!-- النص السفلي -->
+      <p class="text-white text-base font-medium text-center w-full">
+        © 2025 Al_Wisam | Designed By Nour Elhoda.
+      </p>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<script>
+  const swiper = new Swiper(".mySwiper", {
+    effect: "cards",
+    grabCursor: true,
+    loop: true,
+  });
+
+  // ربط الأسهم اليدوية بالسوايبر
+  document.getElementById("swiperNext").addEventListener("click", () => swiper.slideNext());
+  document.getElementById("swiperPrev").addEventListener("click", () => swiper.slidePrev());
+</script>
+
+  </body>
+</html>
